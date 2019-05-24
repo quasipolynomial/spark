@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+    ubuntu-s:
+        build: 
+            context: .
+            dockerfile: UbuntuDockerfile
+        volumes:
+            - ./ubuntu-files:/home
